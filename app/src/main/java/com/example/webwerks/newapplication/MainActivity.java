@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addition(){
-        Boolean res=true;
         Toast.makeText(MainActivity.this,"Hi Addition Method",Toast.LENGTH_LONG).show();
     }
 }
