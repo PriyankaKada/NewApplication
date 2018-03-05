@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void addition(){
         Toast.makeText(MainActivity.this,"Hi Addition Method",Toast.LENGTH_LONG).show();
-        String hi="Bye";
+        String hi="Say Good Bye";
+        Boolean result= true;
     }
 }
