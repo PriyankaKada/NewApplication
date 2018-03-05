@@ -11,10 +11,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(MainActivity.this,"Hi GitHub",Toast.LENGTH_LONG).show();
+        addition();
     }
 
     public void addition(){
         Toast.makeText(MainActivity.this,"Hi Minus Method",Toast.LENGTH_LONG).show();
         String hi="Say Good Morning";
+        boolean res=true;
+        if(res){
+            hi="Nice work buddy";
+            res=false;
+        }
     }
 }
